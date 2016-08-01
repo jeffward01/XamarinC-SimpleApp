@@ -42,11 +42,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="45" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="186" y="46" width="100" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="45" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="148" y="50" width="150" height="30"/>
                                 <state key="normal" title="clickMe">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <constraints>
+                                    <constraint id="49" firstItem="45" firstAttribute="width" constant="150"/>
+                                </constraints>
                             </button>
                         </subviews>
                         <constraints>
@@ -58,6 +61,8 @@
                             <constraint id="27" firstItem="25" firstAttribute="top" secondItem="4" secondAttribute="bottom" constant="40"/>
                             <constraint id="28" firstItem="25" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10"/>
                             <constraint id="29" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="25" secondAttribute="trailing" constant="10"/>
+                            <constraint id="46" firstItem="45" firstAttribute="leading" secondItem="4" secondAttribute="trailing" constant="25"/>
+                            <constraint id="48" firstItem="45" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50"/>
                         </constraints>
                     </view>
                     <connections>
