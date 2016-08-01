@@ -22,7 +22,7 @@ namespace myFirstApp.iOS
             textField.KeyboardType = UIKeyboardType.Default;
 
 
-            button.TouchUpInside += Button_TouchUpInside;
+            myButton.TouchUpInside += Button_TouchUpInside;
 
 
 

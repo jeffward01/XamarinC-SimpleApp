@@ -38,13 +38,16 @@
                                 </constraints>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="25" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Enter Sentence...">
-                                <rect key="frame" x="10" y="110.5" width="150" height="30"/>
+                                <rect key="frame" x="10" y="110.5" width="580" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <constraints>
-                                    <constraint id="26" firstItem="25" firstAttribute="width" constant="150"/>
-                                </constraints>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="45" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="186" y="46" width="100" height="30"/>
+                                <state key="normal" title="clickMe">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint id="17" firstItem="4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10"/>
@@ -54,11 +57,14 @@
                             <constraint id="23" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="10"/>
                             <constraint id="27" firstItem="25" firstAttribute="top" secondItem="4" secondAttribute="bottom" constant="40"/>
                             <constraint id="28" firstItem="25" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10"/>
+                            <constraint id="29" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="25" secondAttribute="trailing" constant="10"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="buttonLabel" destination="4" id="name-outlet-4"/>
                         <outlet property="textField" destination="25" id="name-outlet-25"/>
+                        <outlet property="textView" destination="20" id="name-outlet-20"/>
+                        <outlet property="myButton" destination="45" id="name-outlet-45"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

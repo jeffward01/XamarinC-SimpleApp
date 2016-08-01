@@ -20,7 +20,15 @@ namespace myFirstApp.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton myButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField textField { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextView textView { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
@@ -29,9 +37,19 @@ namespace myFirstApp.iOS
                 buttonLabel = null;
             }
 
+            if (myButton != null) {
+                myButton.Dispose ();
+                myButton = null;
+            }
+
             if (textField != null) {
                 textField.Dispose ();
                 textField = null;
+            }
+
+            if (textView != null) {
+                textView.Dispose ();
+                textView = null;
             }
         }
     }
