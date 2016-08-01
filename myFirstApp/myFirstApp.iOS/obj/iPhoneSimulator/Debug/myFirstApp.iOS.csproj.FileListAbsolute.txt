@@ -1,0 +1,12 @@
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\bin\iPhoneSimulator\Debug\myFirstAppiOS.exe
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\bin\iPhoneSimulator\Debug\myFirstAppiOS.pdb
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\myFirstApp.iOS.csprojResolveAssemblyReference.cache
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\myFirstAppiOS.exe
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\myFirstAppiOS.pdb
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\obj\iPhoneSimulator\Debug\myFirstAppiOS.exe.mdb
+C:\Dev\github\Udemy\FirstXamarinApp\myFirstApp\myFirstApp.iOS\bin\iPhoneSimulator\Debug\myFirstAppiOS.exe.mdb
